@@ -33,6 +33,9 @@ export default {
         changeVal(val){
             this.numbersOfXyu = val; 
         }
+        justFunc(){
+            return this.numbersOfXyu;
+        }
     }      
 }
 </script>
